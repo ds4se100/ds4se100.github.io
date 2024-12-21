@@ -34,7 +34,7 @@ $ python file02.py wws2025cfp.txt
 15 : （議論のみ参加も認めるため，アカウントは必須ではありません．）
 ```
 
-### (3) **CSVファイルのヘッダーと行数** ###
+### (3) **CSVファイルのヘッダーと行数**
 この[CSV ファイル（カンマ区切りファイル）(iris.csv)](./data/iris.csv)について，
 - データの行数，
 - 1 行目（ヘッダー）に書かれている項目数，
@@ -56,7 +56,21 @@ $ python file03.py iris.csv
 項目5：class
 ```
 
-### **JSONファイルの読み込み** ###
+### (4) **CSVファイルの読み書き（データの抽出を含む）** 
+この[CSV ファイル（カンマ区切りファイル）(iris.csv)](./data/iris.csv)に格納されているデータででは，
+class として 'Iris-setosa', 'Iris-versicolor', 及び 'Iris-virginica' の 3 種類がある．  
+このデータを class ごとに分けて 3 つの CSV ファイルへそれぞれ出力するプログラムを作りなさい．  
+なお，出力先の CSV ファイル名は「クラス名」+「.csv」とし，それぞれのデータ列 class は含めないものとする．
+
+ 実行例（作成したプログラムを ```file04.py``` として）
+```shell-session
+$ python file04.py iris.csv
+```
+
+実行後，3 つのファイル（[Iris-setosa.csv](./data/Iris-setosa.csv), [Iris-versicolor.csv](./data/Iris-versicolor.csv), [Iris-virginica.csv](./data/Iris-virginica.csv)）が作られることになる．
+
+
+### **JSONファイルの読み込み**
 この JSON ファイルを読み込んで，その内容を項目別に出力するプログラムを作りなさい．
 
 ### **解答例**
@@ -67,4 +81,5 @@ $ python file03.py iris.csv
 |(1) テキストファイルの行数|[file01.py](./answer/file01.py)|
 |(2) テキストファイルを行番号付きで|[file02.py](./answer/file02.py)|
 |(3) CSVファイルのヘッダーと行数|[file03.py](./answer/file03.py)|
+|(4) CSVファイルの読み書き（データの抽出を含む）|[file04.py](./answer/file04.py)|
 
