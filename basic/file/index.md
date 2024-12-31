@@ -70,8 +70,24 @@ $ python file04.py iris.csv
 実行後，3 つのファイル（[Iris-setosa.csv](./data/Iris-setosa.csv), [Iris-versicolor.csv](./data/Iris-versicolor.csv), [Iris-virginica.csv](./data/Iris-virginica.csv)）が作られることになる．
 
 
-### **JSONファイルの読み込み**
-この JSON ファイルを読み込んで，その内容を項目別に出力するプログラムを作りなさい．
+### (5) **JSONファイルの読み込み**
+この[JSON ファイル(iris.json)](./data/iris.json)を読み込んで，格納されているデータ数と各データの内容を出力するプログラムを作りなさい．  
+ただし，このJSONファイルでは 150 個のデータが配列（リスト）のかたちで与えられており，各データは辞書型になっている．
+
+ 実行例（作成したプログラムを ```file05.py``` として）
+```shell-session
+$ python file05.py iris.json
+データ数 = 150
+データ001
+{'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2, 'class': 'Iris-setosa'}
+データ002
+{'sepal_length': 4.9, 'sepal_width': 3.0, 'petal_length': 1.4, 'petal_width': 0.2, 'class': 'Iris-setosa'}
+...
+... （途中省略）
+...
+データ150
+{'sepal_length': 5.9, 'sepal_width': 3.0, 'petal_length': 5.1, 'petal_width': 1.8, 'class': 'Iris-virginica'}
+```
 
 ### **解答例**
 注意：プログラムにエラー処理等は入れていません．
@@ -82,4 +98,5 @@ $ python file04.py iris.csv
 |(2) テキストファイルを行番号付きで|[file02.py](./answer/file02.py)|
 |(3) CSVファイルのヘッダーと行数|[file03.py](./answer/file03.py)|
 |(4) CSVファイルの読み書き（データの抽出を含む）|[file04.py](./answer/file04.py)|
+|(5) JSONファイルの読み込み|[file05.py](./answer/file05.py)|
 
