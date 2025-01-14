@@ -5,14 +5,16 @@
 ## 41. 特定versionのpythonの環境を作る
 特定versionのpython環境を作成しなさい．また，それとは異なるversionのpython環境を作成しなさい．
 
-- 実行例 
-```shell-session
+- 実行例  
+```sh-session
 # python version確認
 $ python --version
 Python 3.8.0
-
-# python versionを変更するコマンド
-
+```
+```sh-session
+# python versionを変更するコマンド  
+```
+```sh-session
 # python version確認
 $ python --version
 Python 3.10.0
