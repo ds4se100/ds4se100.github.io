@@ -65,4 +65,5 @@ poi-ooxml/build.gradle
 抽出されたルールに基づき，ファイル`src/ooxml/java/org/apache/poi/xssf/usermodel/XSSFCell.java`だけが変更された場合に，変更漏れと思われるファイルを推薦せよ．
 
 ### 解答例
-[p3.ipynb](p3.ipynb)
+[解答例](./p3.html){:target="_blank"} /
+[ipynbファイルをダウンロード](./p3.ipynb)

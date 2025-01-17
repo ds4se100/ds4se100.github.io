@@ -230,4 +230,5 @@ python p0408.py tornado/tornado/log.py
 
 ---
 ### 解答例
-[解答例はこちら](./answer.ipynb)
+[解答例はこちら](./answer.html){:target="_blank"} /
+[ipynbファイルをダウンロード](./answer.ipynb)
