@@ -1,0 +1,20 @@
+4a90f3da7f Merge branch '3.8-dev'
+4fa0324f2c Merge branch '3.7-dev' into 3.8-dev
+0f90b39e03 TINKERPOP-3223 Fixed bug in SubgraphStrategy
+ecd7f77edb Merge branch '3.8-dev'
+d2e620fa03 Add feature tests for local-emit-repeat scenario CTR
+0051eee147 Merge branch '3.8-dev'
+786b29710f Merge branch '3.7-dev' into 3.8-dev
+61c37a1e24 Integrate JavaScript examples into CI build (#3240)
+d4f0356c43 Merge branch '3.8-dev'
+234d578028 TINKERPOP-3218 Fix bug in pre-repeat emit()/until() (#3288)
+b38469469f Merge branch '3.8-dev'
+987f294765 Merge branch '3.7-dev' into 3.8-dev
+53959cc41c TINKERPOP-3217 Add server option to close Session automatically. (#3284)
+4f88964daa TINKERPOP-3213 Add SessionedChildClient (#3258)
+0a6b53ae4a Merge branch '3.8-dev'
+ebdec97482 Merge branch '3.7-dev' into 3.8-dev
+3bdb5bd6cf Remove GremlinServerSessionIntegrateWithUnifiedChannelizerTest CTR
+5a0c1c0506 Merge branch '3.8-dev'
+903aa50c49 Merge branch '3.7-dev' into 3.8-dev
+b305bc9a29 CTR logging docs for javascript

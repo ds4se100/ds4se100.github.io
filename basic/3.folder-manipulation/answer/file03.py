@@ -7,8 +7,6 @@ else:
     folder_name = sys.argv[1]
     folder_path = Path(folder_name)
 
-    if folder_path.exists():
-        print("存在します")
-    else:
-        folder_path.mkdir()
-        print(f"フォルダ '{folder_name}' を作成しました")
+    for file in folder_path.iterdir():
+        if file.is_file() and file.suffix == ".csv":
+            print(f"{file.absolute()}")

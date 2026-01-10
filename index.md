@@ -9,7 +9,7 @@
 | ---- | ---- |
 | [文字列処理](./basic/1.string-manipulation/) | 文字列の置換，結合，分割，正規表現 |
 | [ファイル処理](./basic/2.file-manipulation/) | テキスト/CSV/JSON ファイルの読み書き |
-| フォルダ（ディレクトリ）処理<!--[フォルダ（ディレクトリ）処理](./basic/3.folder-manipulation/)--> | ファイル一覧，絶対パス・相対パス |
+| [フォルダ（ディレクトリ）処理](./basic/3.folder-manipulation/) | ファイル一覧，絶対パス・相対パス |
 | [仮想環境（python）](./basic/4.python-environment/) | 仮想環境作成, package import |
 | [Git/GitHub 操作](./basic/5.git/) | コミット，Issue |
 | AST解析 <!--[AST解析](./basic/6.AST/)--> | AST, Visitor |
@@ -22,6 +22,7 @@
 | [バグを予測する](./p1/) | メトリクス，SVM，予測精度，変数選択 |
 | [共変更を予測する](./p3/) | Git，コミット，相関ルールマイニング |
 | [関数名を解析する](./p4/) | トークン分け，AST 解析，品詞タグ付け |
+| [AST解析とメトリクス](./p6/) | AST，Visitor，メトリクス，code smell |
 
 * * *
 (C) 2024-2026 [情報処理学会ソフトウェア工学研究会](https://www.sigse.jp/)・[ウインターワークショップ](https://wws.sigse.jp/)「データサイエンスとソフトウェア工学」セッション参加者

@@ -1,0 +1,5 @@
+userId
+password
+maxDataLength
+DataType
+
