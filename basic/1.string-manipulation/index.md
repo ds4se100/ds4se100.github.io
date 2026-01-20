@@ -116,3 +116,7 @@ maxDataLength --> ['max', 'data', 'length']
 DataType --> ['data', 'type']
 ```
 
+---
+---
+## 解答例
+- 問 1--19: [Jupyter Notebook 形式の解答例](./answer/basic_1_answer.ipynb)
