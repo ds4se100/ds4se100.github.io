@@ -96,7 +96,7 @@ folder07/c.txt
 ### 38 再帰的なファイル探索
 指定したフォルダだけでなく、その中にある「サブフォルダ」の中身まで含めて、すべてのファイルを検索してください。
 
-- 実行例（作成したプログラムを ```file07.py``` として）
+- 実行例（作成したプログラムを ```file08.py``` として）
 ```shell-session
 $ tree folder08
 folder08
@@ -105,9 +105,9 @@ folder08
 ├── c.txt
 └── subfolder01
     └── c.txt
-
+ 
 2 directories, 4 files
-
+ 
 $ python file08.py folder08 c.txt
 folder08/c.txt
 folder08/subfolder01/c.txt
@@ -141,15 +141,15 @@ $ python file09.py folder09
 $ ls folder10_1 folder10_2
 folder10_1:
 a.txt	b.txt	c.txt	d.txt
-
+ 
 folder10_2:
 a.txt	b.csv	c.txt
-
+ 
 $ python file10.py folder10_1 folder10_2 
 folder10_1 にのみ存在するファイル:
   b.txt
   d.txt
-
+ 
 folder10_2 にのみ存在するファイル:
   b.csv
 ```
